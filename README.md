@@ -1,16 +1,13 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm zhou</h1>
+<p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=%2318546E&lines=Stay+hungry%2C+Stay+foolish.;%E6%89%80%E7%9F%A5%E7%94%9A%E5%B0%91%EF%BC%8C%E6%89%80%E5%AD%A6%E7%94%9A%E5%BE%AE%E3%80%82" alt="typing-svg">
+</p>
+<div align="center">
+<span>  </span>
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=javaht" /><span>  </span><img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=javaht&layout=compact&langs_count=8" />
+<span>  </span>
+</div>
 
-<!--
-**javaht/javaht** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🌱 I’m currently learning about big data, and still growing.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📫 How to reach me **java_ht@163.com**
