@@ -11,4 +11,6 @@
 - 🌱 I’m currently learning about big data, and still growing.
 
 - 📫 How to reach me **java_ht@163.com**
+- <img src="https://github-readme-stats.vercel.app/api?username=javaht&&show_icons=true&theme=radical&line_height=27&v=5" alt="周周's GitHub Stats" />
+
 <img align="right" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" />
