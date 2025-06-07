@@ -11,3 +11,4 @@
 - 🌱 I’m currently learning about big data, and still growing.
 
 - 📫 How to reach me **java_ht@163.com**
+<img align="right" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" />
