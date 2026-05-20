@@ -2,7 +2,7 @@
 
 <img src="https://avatars.githubusercontent.com/javaht" width="120" />
 
-# 周周 / JavaHT
+# 周周 / zhouzhou
 
 ### Big Data Learner · Backend Developer · Keep Building
 
