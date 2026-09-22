@@ -1,32 +1,42 @@
-<div align="center">
-
-<img src="https://avatars.githubusercontent.com/u/54611681?v=4" width="120" />
-
-# 周州 / zhou
-
-**Big Data Learner · Data Engineering Explorer · Backend Builder**
-
-<p>
-  <a href="https://github.com/javaht"><img src="https://img.shields.io/badge/GitHub-javaht-0F172A?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:java_ht@163.com"><img src="https://img.shields.io/badge/Email-java_ht@163.com-0F172A?style=for-the-badge&logo=maildotru&logoColor=00D9FF" /></a>
-  <img src="https://img.shields.io/badge/Location-Beijing-0F172A?style=for-the-badge&logo=googlemaps&logoColor=FF4D4D" />
+<p align="center">
+  <img src="./assets/profile-header.svg" alt="Zhou personal workspace / 周州的个人工作台" width="100%" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Big%20Data-111827?style=for-the-badge&logo=apache&logoColor=00D9FF" />
-  <img src="https://img.shields.io/badge/Data%20Lineage-111827?style=for-the-badge&logo=databricks&logoColor=FF6B00" />
-  <img src="https://img.shields.io/badge/Backend-111827?style=for-the-badge&logo=spring&logoColor=6DB33F" />
-  <img src="https://img.shields.io/badge/AI%20Tools-111827?style=for-the-badge&logo=openai&logoColor=FFFFFF" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-contact.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-contact-light.svg" />
+  <img src="./assets/header-contact.svg" alt="Say hello / 来聊聊" width="100%" />
+</picture>
+
+<p align="center">
+  Have an idea worth talking about? Email me.<br />
+  有想聊的点子或技术交流，欢迎来信。
 </p>
 
-</div>
+<p align="center">
+  <a href="mailto:java_ht@163.com">
+    <img src="./assets/email-button.svg" alt="Email Zhou at java_ht@163.com / 给周州发邮件" width="520" />
+  </a>
+</p>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-activity.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-activity-light.svg" />
+  <img src="./assets/header-activity.svg" alt="Activity / 动态" width="100%" />
+</picture>
 
-```text
-┌─ javaht@github
-├─ Focus    : Big Data / Data Engineering / Backend Development
-├─ Learning : Spark / Flink / Hive / Lineage / Distributed Systems
-├─ Building : Tools that make development and data work easier
-├─ Style    : Simple first, reliable always
-└─ Motto    : 所知甚少，所学甚微
+<p align="center">
+  <img src="https://raw.githubusercontent.com/javaht/javaht/output/stats/activity-card.svg" width="880" alt="Activity: stars, commits, PRs, issues, repos and contribution streaks / 星标、提交、PR、Issue、仓库数与连续贡献" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/javaht/javaht/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/javaht/javaht/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/javaht/javaht/output/github-contribution-grid-snake.svg" alt="Contribution snake / 贡献贪吃蛇" />
+  </picture>
+</p>
+
+<p align="center">
+  <em>所知甚少，所学甚微 · Keep exploring.</em>
+</p>

@@ -1,0 +1,49 @@
+name: Generate Profile Graphics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/**"
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # card first: it writes dist/ as the runner user; snk runs in Docker as
+      # root and would make dist/ unwritable if it created the directory first
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build activity card SVG
+        run: node .github/scripts/build-activity-card.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_FILE: dist/stats/activity-card.svg
+          STATS_USER: javaht
+
+      - uses: platane/snk@v3
+        with:
+          github_user_name: javaht
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # single deploy: ghaction-github-pages force-pushes build_dir as the
+      # branch root, so everything on output must come from this one dist
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
