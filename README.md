@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Zhou personal workspace / 周州的个人工作台" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Zhou personal workspace / 周州" width="100%" />
 </p>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-contact.svg" />
